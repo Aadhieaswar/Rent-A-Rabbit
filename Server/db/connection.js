@@ -6,10 +6,10 @@ function createConnection() {
 
   // creat the connection
   const connection = mysql.createConnection({
-    host: '146.148.64.4',
-    user: 'root',
-    password: 'Password#1234',
-    database: '3309db'
+    host: 'yourHost',
+    user: 'yourUser',
+    password: 'yourPassword',
+    database: 'yourDatabase'
   });
 
   return connection;
