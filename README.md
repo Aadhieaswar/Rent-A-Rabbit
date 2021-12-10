@@ -31,7 +31,7 @@ RentRabbit is a website that people can rent and/or buy tools from other users. 
       - `App.css`: consists of styles for the react component in `App.js` file
       - `Axios`: consists of the file with the axios requests
       - `Header`, `Login`, `Profile`, `Tools`, `Transactions`, `User`, `insertTools`, and `popRenters` each consist the files used to create the respective react components needed for the app
-    - `package.json`: consists of all the dependencies and the run script for the app
+      - `package.json`: consists of all the dependencies and the run script for the app
 
 ### Credits
 - Implemented by __Aadhieaswar Senthil Kumar__
