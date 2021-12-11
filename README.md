@@ -18,7 +18,7 @@ RentRabbit is a website where people can rent and/or buy tools from other users.
     ``` bash
       # environment variable values for the mysql db connection configuration
       # provide appropriate values for each of the environment variables to connect to your mysql database
-      $ HOST=<db-host> USER=<db-user> PWD=<db-password>  DB=<db-name> npm start
+      $ HOST=<db-host> USER=<db-user> PWD=<db-password>  DB=<db-name> node server.js
       ```
   - You can choose to directly add the configurations to the file in `Server/db/connection.js` instead of setting the environment variables and run `npm start` in the `Server` directory to start the server
 - The react app should then open in your default browser
